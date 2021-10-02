@@ -5,8 +5,6 @@ pipeline {
 
             steps {
                 echo 'Auto build application'
-                echo "Buildingfvesion ${NEW_VERSION}"
-                echo 'this is forking on new branch'
 
             }
             
