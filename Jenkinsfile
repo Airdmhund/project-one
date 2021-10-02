@@ -36,7 +36,7 @@ pipeline {
 
         stage ("Confirmation") {
             steps {
-                echo 'confirming app to jenkins'
+                echo 'confirming app to jenkins3'
 
             }
             
