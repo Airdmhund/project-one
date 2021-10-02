@@ -8,8 +8,8 @@ pipeline {
 
             steps {
                 echo 'Auto build application'
-                echo "Building vesion ${NEW_VERSION}"
-                echo 'this is working on newl branch'
+                echo "Buildingfvesion ${NEW_VERSION}"
+                echo 'this is forking on new branch'
 
             }
             
@@ -17,7 +17,7 @@ pipeline {
 
         stage ("Test") {
             steps {
-                echo 'testing the applicaton'
+                echo 'testing fhe applicaton'
 
             }
             
@@ -47,4 +47,3 @@ pipeline {
             echo 'I can see youre working'
         }
     }
-}
