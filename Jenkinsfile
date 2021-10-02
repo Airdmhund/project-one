@@ -36,7 +36,7 @@ pipeline {
 
         stage ("Confirmation") {
             steps {
-                echo 'confirmation'
+                echo 'confirmation in test branch'
 
             }
             
