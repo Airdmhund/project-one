@@ -28,7 +28,7 @@ pipeline {
         stage ("Deploy to hub") {
 
             steps {
-                echo 'deploying the applicationl to DockerHub'
+                echo 'deploying the aphhplication to DockerHub'
 
                 }
 
