@@ -33,6 +33,14 @@ pipeline {
                 }
 
             }
+
+        stage ("Confirmation") {
+            steps {
+                echo 'confirming app'
+
+            }
+            
+        } 
             
         }
     }
