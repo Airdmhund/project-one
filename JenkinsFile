@@ -9,7 +9,7 @@ pipeline {
             steps {
                 echo 'Auto build application'
                 echo "Building vesion ${NEW_VERSION}"
-                echo 'this is working'
+                echo 'this is working on new branch'
 
             }
             
